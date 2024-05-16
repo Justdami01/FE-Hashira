@@ -65,10 +65,15 @@ input[type="checkbox"] {
 #submit {
   margin-top: 20px;
   width: 100%;
-  background: #09d109;
+  background: #0ea70e;
   color: white;
   padding: 10px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  font-size: larger;
+}
+
+#submit:hover {
+  background: #18e418;
 }

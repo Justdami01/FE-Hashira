@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Name:
+          <input id="name" type="text" placeholder="Enter your name" required />
+        </label>
+        <label id="email-label"
+          >Email:
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+            required
+            rows="5"
+            cols="5"
+          />
+        </label>
+        <label id="number-label"
+          >Age:
+          <input
+            id="number"
+            type="number"
+            min="14"
+            max="100"
+            placeholder="Age"
+            required
+          />
+        </label>
+        <label for="dropdown"
+          >Which option best describes your current role?
+          <select id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Intern</option>
+            <option>Full time job</option>
+            <option>Full Time Learner</option>
+            <option>Others</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p id="cap">Would you recommend freeCodeCamp to a friend?</p>
+        <label
+          ><input type="radio" value="1" name="recommend" /> Definitely</label
+        >
+        <label><input type="radio" value="2" name="recommend" /> Maybe</label>
+        <label
+          ><input type="radio" value="3" name="recommend" /> Not sure</label
+        >
+      </fieldset>
+      <fieldset>
+        <p id="cap">What would you like to see improved?</p>
+        <label
+          ><input type="checkbox" value="frontend" /> Front-end Projects</label
+        >
+        <label
+          ><input type="checkbox" value="backend" /> Back-end Projects</label
+        >
+        <label><input type="checkbox" value="data" /> Data Visualization</label>
+        <label><input type="checkbox" value="challenges" /> Challenges</label>
+        <label
+          ><input type="checkbox" value="open" /> Open Source Community</label
+        >
+        <label
+          ><input type="checkbox" value="gitter" /> Gitter help rooms</label
+        >
+        <label><input type="checkbox" value="videos" /> Videos</label>
+        <label><input type="checkbox" value="dami" /> Dami coding</label>
+        <label
+          >Any comments or suggestions?
+          <textarea
+            placeholder="Enter your comment here..."
+            rows="5"
+            cols="50"
+          ></textarea>
+        </label>
+      </fieldset>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

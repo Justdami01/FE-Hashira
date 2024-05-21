@@ -1,0 +1,140 @@
+/* General reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+figure,
+figcaption,
+blockquote {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+}
+#code {
+  color: white;
+}
+h3 {
+  color: white;
+  padding: 25px;
+}
+#headline {
+  color: black;
+  text-align: center;
+  padding: 1px;
+}
+/* Body styling */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #080808;
+  padding: 20px;
+  text-align: center;
+
+  background-image: url(https://i.pinimg.com/236x/7b/fb/12/7bfb127dbf30c8aa66428a06769e8e0e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main container */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+#title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/* Subtitle styling */
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Image container */
+#img-div {
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+#image {
+  width: 800px;
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 8px;
+  padding-bottom: 0px;
+}
+
+/* Image caption styling */
+#img-caption {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Timeline section */
+#tribute-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#headline {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* List styling */
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+/* Blockquote styling */
+blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-left: 5px solid #ccc;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Link styling */
+#tribute-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
+#img-caption {
+  color: #585555;
+}

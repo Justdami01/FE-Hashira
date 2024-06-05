@@ -31,11 +31,11 @@ h3 {
 }
 /* Body styling */
 body {
-  font-family: 2px "Arial", sans-serif;
+  font-family: 4px sans-serif;
   color: #080808;
   padding: 20px;
   text-align: center;
-  background-image: url(asset/img/Море🤩.jpg);
+  background-image: url("asset/img/Море🤩.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -90,7 +90,7 @@ p {
 #tribute-info {
   text-align: left;
   margin-top: 20px;
-  color: whitesmoke;
+  color: white;
 }
 
 #headline {

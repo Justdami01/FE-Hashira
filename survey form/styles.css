@@ -1,11 +1,14 @@
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background-image: url(https://wallpapercave.com/wp/wp1890592.jpg);
+  font-family: 4px sans-serif;
+  color: #ffffff;
+  padding: 20px;
+
+  background-image: url("assets/img/pics.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  font-size: larger;
+  object-fit: cover;
+  object-position: center;
+  font-size: 20px;
 }
 
 h1 {
@@ -22,18 +25,22 @@ h1 {
 }
 
 #survey-form {
-  background-color: #0c223b;
-  width: 80%;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #2727271a;
-  border: 0;
+  background-color: transparent;
+  padding: 30px;
+  border-radius: 8px;
+  border: 3px solid white;
+  backdrop-filter: blur(10px);
 }
 
 label {
   display: block;
   margin-bottom: 10px;
+}
+
+.info {
+  outline: none;
 }
 
 input,
